@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es"/>
+<head>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" type="text/css" href="estiloFF.css">
+	<title>Discos</title>
+</head>
+<body>
+	<main>
+	<a href="index2.html"></a>
+		<header>
+			<a href="index2.html"><img class="header-logo" src="FFLogo.jpg" alt="Logo FF"/></a><!--logo-->
+	</header>
+	<nav class="nav">
+		<ul class="menu">
+			<li class="Compra"><a href="Compra.html" target="_blank">Compra</a></li>
+			<li class="videos"><a href="Videos.html" target="_blank">Videos</a></li>
+			<li class="discos"><a href="Discos.html" target="_blank">Discos</a></li>
+		</ul>
+	</nav>
+		<section>
+			<div>
+				<form action="login.php" method="post" accept-charset="utf-8">
+					<fieldset>
+							<h1>Compra</h1>
+							<p>
+							<h2>Datos</h2>
+							<label for="Nombre">Nombre</label>
+							<input type="text" id="Nombre" placeholder="ingrese su nombre">
+							<label for="Apellido">Apellido</label>
+							<input type="text" id="Apellido" placeholder="ingrese su apellido">
+							<label for="Email">Email</label>
+							<input type="email" id="Email" placeholder="ingrese su email">
+							<label for="Contraseña">Contraseña</label>
+							<input type="Contraseña" id="Contraseña" placeholder="ingrese su contraseña">
+							</p>
+							<p>
+							<h2>Tipo de compra</h2>
+							<label for="Compra"></label>
+							<input type="radio" name="Compra" value="debito">
+							<label for="debito">Débito</label>
+							<input type="radio" name="Compra" value="credito">
+							<label for="credito">Crédito</label>
+							</p>
+							<p>
+							<h2>Disco</h2>
+							<label for="CONCRETE AND GOLD (2017)">CONCRETE AND GOLD (2017)</label>
+							<input type="checkbox" name="Disco[]" value="CONCRETE AND GOLD (2017)">
+							<label for="ECHOES, SILENCE, PATIENCE AND GRACE (2007)">ECHOES, SILENCE, PATIENCE AND GRACE (2007)</label>
+							<input type="checkbox" name="Disco[]" value="ECHOES, SILENCE, PATIENCE AND GRACE (2007)">
+							</p>
+							<p>
+							<h2>Otros artículos</h2>
+							<select name="Otros artículos"> <!--despliega el menu de opciones-->
+								<option value="Posters">Posters</option>
+								<option value="Stickers">Stickers</option>
+							</select>
+							</p>
+							<p>
+							<h3>Consulta</h3>
+							<textarea name="consulta" row="5" coll="5" placeholder="ingrese su consulta"></textarea>
+							</p>
+					</fieldset>
+				</form>
+			</div>
+		</section>
+		<aside></aside>
+		<footer>
+		<div class="footer">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid architecto perferendis alias, assumenda vitae impedit culpa maiores commodi voluptates facere quaerat voluptate distinctio ullam quisquam laborum facilis placeat illo. Laboriosam.
+			<ul class="redes">
+				<a href="https://www.instagram.com/foofighters/?hl=es-la" target="_blank"><img class="instagram-icon" src="instagram-icon.png" alt="Instagram"/></a>
+				<a href="https://www.facebook.com/foofighters/" target="_blank"><img class="facebook-icon" src="facebook-icon.png" alt="facebook"/></a>
+				<a href="https://www.youtube.com/channel/UCGRjJrpD2bmk9Ilq6nq80qg" target="_blank"><img class="youtube-icon" src="youtube-icon.png" alt="Youtube"/></a>
+			</ul>
+		</div>
+	</footer>
+	</main>
+</body>
+</html>

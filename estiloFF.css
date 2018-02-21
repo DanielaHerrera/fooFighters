@@ -1,0 +1,423 @@
+/*index2*/
+*{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+/*body*/
+
+.background{
+	background: black;
+}
+
+/*nav*/
+
+.nav{
+	background: black;
+	position: relative;
+}
+
+.nav-logo{
+	margin: 4px 0px 0px 30px;
+	height: 74px;
+}
+
+.menu{
+	list-style: none;
+	background: black;
+	text-align: center;
+	margin: 4px 30px 0px 0px;
+	padding: 10px 0px 10px 0px;
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+li{
+	padding: 1em;
+	display: inline-block;
+}
+
+a{
+	font-family: 'Abel', sans-serif;
+	text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9em;
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #AA924F;
+	background: none;
+}
+
+/*section*/
+
+.logocentral{
+	margin-right:auto
+	height: 40%;
+	margin-left: 40%;
+	margin-top: 20%;
+	position: absolute;
+	padding: 0 30px;
+}
+
+.logocentral:hover{
+	opacity: 0.5;
+}
+
+.ffbackgroung{
+	background: black;
+	width: 100%;
+}
+
+/*footer*/
+
+.newsletter{
+	background: black;
+	padding-top: 10px;
+	font-size: 1.2em;
+	color: #AA924F;
+}
+
+.newsletterr{
+	padding: 0.8em 25.75em 0.5em 0;
+	margin-bottom: 0.5em;
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px solid white;
+}
+
+.label{
+	display: block;
+	width: 100%;
+}
+
+.email{
+	width: 0.8em 10em;
+	font-family: 'Abel', sans-serif;
+	font-size: 1em;
+	margin: 1em 0;
+	padding: 0.8em 9.5em;
+	border-radius: 6px;
+	border-style: none;
+}
+
+.bottom{
+	background: linear-gradient(-40deg, #7A6425, #AA924F);
+	color: white;
+	margin: 1em 0 0 0;
+	padding: 1.28em 2em;
+	border-radius: 6px;
+	border-style: none;
+}
+.bottom:hover{
+	color: white;
+}
+
+.redes{
+	padding: 5px;	
+	font-size: xx-large;
+	color: white;
+}
+
+.redes:hover{
+	color: #AA924F;
+	background: none;
+}
+
+h5{
+	font-family: 'Wire One', sans-serif;
+	text-transform: none;
+	letter-spacing: 1.8px;
+	font-size: 1em;
+	line-height: 20px;
+	color: white;
+}
+
+h6{
+	padding-bottom: 0.8em;
+	font-size: 12px;
+}
+
+footer{
+	font-family: 'Abel', sans-serif;
+	text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9em;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	content-left: 30em;
+	background: black;
+	width: 100%;
+	right: 1em;
+}
+
+/*discografia*/
+/*section*/
+
+.discob{
+	display: inline-block;
+	padding: 15px 185px 11px 1px;
+	margin: 0 24px 0 170px;
+	color: #AA924F;
+	font-family: 'Abel', sans-serif;
+	text-align: center;
+	border-bottom: 1px solid white;
+}
+
+.discob:hover{
+	color: white;
+	border-bottom: 1px solid #AA924F;
+}
+
+.discoc{
+	display: inline-block;
+	padding: 15px 91px 11px 1px;
+	margin: 0 24px 0 170px;
+	color: #AA924F;
+	font-family: 'Abel', sans-serif;
+	text-align: center;
+	border-bottom: 1px solid white; 
+}
+
+.discoc:hover{
+	color: white;
+	border-bottom: 1px solid #AA924F;
+}
+
+.discos{
+	width: 100%;
+}
+
+.disco-2017{
+	display: inline-block;
+	float: left;
+	margin-left: 150px;
+	padding: 15px 5px 40px 20px;
+	width: 30%;
+}
+
+.disco-2017:hover{
+	opacity: 0.5;
+}
+
+.disco-2007{
+	display: inline-block;
+	float: right;
+	margin-right: 150px;
+	padding: 15px 20px 40px 5px;
+	width: 30%;
+}
+
+.disco-2007:hover{
+	opacity: 0.5;
+}
+
+/*integrantes*/
+/*section*/
+
+.titulointe{
+	position: relative;
+	display: inline-block;
+	left: 32px;
+    font-family: Abel, sans-serif;
+    border-bottom: 1px solid white;
+    color: #AA924F;
+	padding: 0.8em 73.2% 0.5em 0;
+	margin-bottom: 0.2em;
+	font-size: 30px;
+}
+
+.titulointe:hover{
+	border-bottom: 1px solid #AA924F;
+    color: white;
+}
+
+.aintegrantes{
+    width: 100%;
+    height: 200%;
+}
+
+.inte{
+	position: relative;
+	float: left;
+	height: 360px;
+	padding: 1em 0.5em 1em 1em;
+	margin: 1em;
+}
+
+.integran{
+	position: relative;
+	float: left;
+	font-size: 20px;
+	font-family: Abel, sans-serif;
+	color: white;
+	padding: -1em 0 1em 1em;
+	margin: 1em 1em 1em 10.5em;
+}
+
+.integrant{
+	position: relative;
+	float: left;
+	font-size: 12px;
+	font-family: Abel, sans-serif;
+	text-align: center;
+	color: white;
+	padding: 0.5em;
+	border: dotted 1px #AA924F;
+	margin: 1.5em 9em 1em 0.2em;
+}
+
+/*merchandising*/
+/*section*/
+
+.titulomerch{
+	position: relative;
+	display: inline-block;
+	left: 110px;
+    font-family: Abel, sans-serif;
+    border-bottom: 1px solid white;
+    color: #AA924F;
+	padding: 0.8em 51.2% 0.5em 0;
+	margin-bottom: 0.2em;
+	font-size: 30px;
+}
+
+.titulomerch:hover{
+	border-bottom: 1px solid #AA924F;
+    color: white;
+}
+
+.amerchandising{
+    position: relative;
+    align-content: center;
+    margin: 36px;
+    padding: 30px;
+    width: 90%;
+}
+
+.merch{
+	position: relative;
+	float: left;
+	width: 25%;
+	padding: 1em;
+	margin: 2.1em;
+}
+
+.merchan{
+	position: relative;
+	float: left;
+	font-size: 12px;
+	font-family: Abel, sans-serif;
+	text-align: center;
+	color: white;
+	padding: 1em 0 1em 1em;
+	margin: 1em 1em 1em 10.5em;
+}
+
+.merchanp{
+	position: relative;
+	float: left;
+	font-size: 12px;
+	font-family: Abel, sans-serif;
+	text-align: center;
+	color: white;
+	padding: 0.5em;
+	border: dotted 1px #AA924F;
+	margin: 1.5em 9em 1em 0.2em;
+}
+
+/*videos*/
+/*section*/
+
+.titulo{
+    text-align: center;
+}
+
+.titulovideo{
+	position: relative;
+	display: inline-block;
+    font-family: Abel, sans-serif;
+    border-bottom: 1px solid white;
+    color: #AA924F;
+	padding: 0.8em 40% 0.5em 0;
+	margin-bottom: 0.5em;
+}
+
+iframe{
+    width: 777px;
+    height: 438px;
+    left: 286px;
+    display: block;
+    position: relative;
+}
+
+/*tours*/
+/*section*/
+
+.titulotours{
+    position: relative;
+	display: inline-block;
+	left: 370px;
+    font-family: Abel, sans-serif;
+    border-bottom: 1px solid white;
+    color: #AA924F;
+	padding: 0.8em 36.2% 0.5em 0;
+	margin-bottom: 0.2em;
+	font-size: 30px;
+}
+
+.titulotours:hover{
+	color: white;
+	border-bottom: 1px solid #AA924F;
+}
+
+.tabla{
+    position: relative;
+	display: inline-block;
+    font-family: Abel, sans-serif;
+    color: white;
+	padding: 0.8em 40% 0.5em 0;
+	margin-bottom: 0.5em;
+}
+
+table{
+    display: block;
+    position: relative;
+    left: 370px;
+}
+
+th{
+    font-family: Abel, sans-serif;
+    font-size: 24px;
+    color: white;
+    padding: 0 0 1em 0;
+}
+
+td{
+	border-right: dotted 1px #AA924F;
+	border-left: dotted 1px #AA924F;
+	padding: 1.5em;
+	margin-top: 2em;
+}
+
+.detalles{
+    padding-top: 1em;
+    text-align: center;
+	position: relative;
+    left: 370px;
+}
+
+span{
+	color: #AA924F;
+}
+
+span:hover{
+	color:white;
+	text-decoration: underline;
+}

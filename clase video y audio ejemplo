@@ -1,0 +1,15 @@
+<section>
+			<div>
+				<p class="audioyvideo">
+				<h1>Audio y Video</h1>
+				<h2>Audio</h2>
+			 		<audio src="http://www.w3schools.com/html/mov_bbb.ogg" controls loop preload>
+			 			<p>¡ops tu pc no es compatible!</p>
+					</audio>
+				<h2>Video</h2>
+			 		<video src="https://www.w3schools.com/html/mov_bbb.mp4" controls loop preload/>
+			 			<code>¡ops tu pc no es compatible!</code> <!--mensaje emergente cuando no es compatible el ordenador con el reproductor-->
+			 		</video>
+			 	</p>
+			</div>
+		</section>
