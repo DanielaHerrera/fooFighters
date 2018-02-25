@@ -56,22 +56,31 @@ a:hover{
 
 /*section*/
 
+.ffbackgroung{
+	background: black;
+	width: 100%;
+	position: relative;
+	z-index: 1;
+}
+
 .logocentral{
-	margin-right:auto
-	height: 40%;
-	margin-left: 40%;
-	margin-top: 20%;
+	padding-top: 28%;
+	height: 45%;
+	animation-name: movimiento;
+	animation-duration: 5s;
+	animation-fill-mode: forwards;
 	position: absolute;
-	padding: 0 30px;
+	z-index: 10;
+}
+/*animacion*/
+
+@keyframes movimiento{
+    0%   {top: 0px; left: 0px;}
+    100%  {top: 0px; left: 40%;}
 }
 
 .logocentral:hover{
 	opacity: 0.5;
-}
-
-.ffbackgroung{
-	background: black;
-	width: 100%;
 }
 
 /*footer*/
