@@ -2,30 +2,41 @@
 <html lang="es"/>
 <head>
 	<meta charset="UTF-8"/>
-	<link rel="stylesheet" type="text/css" href="estiloFF.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>Foo Fighters</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.css"/>
+	<link rel="stylesheet" type="text/css" href="css/main.css"/>
 	<link href="https://fonts.googleapis.com/css?family=Abel|News+Cycle|Wire+One" rel="stylesheet">
 	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-	<title>Foo Fighters</title>
-</head>
-<body class="background">
+</head
+<body class="container-fluid">
 	<main>
 	<nav class="nav">
 		<div>
-			<h1><img class="nav-logo" src="FFLogo.jpg" alt="Logo FF"/></h1>
-			<ul class="menu">
-				<li class="discografia"><a href="discografia.html" target="_blank">Discografía</a></li>	
-				<li class="integrantes"><a href="integrantes.html" target="_blank">Integrantes</a></li>
-				<li class="merchandising"><a href="merchandising.html" target="_blank">Merchandising</a></li>
-				<li class="videos"><a href="videos.html" target="_blank">Videos</a></li>
-				<li class="tours"><a href="tours.html" target="_blank">Tours</a></li>
+			<video id="videoIntro" autoplay="" muted="" loop="" playsinline="" data-autoplay="" poster="http://res.cloudinary.com/daniela/video/upload/ac_none,br_10000,e_fade:1000/v1519779345/videoBackground.ogv" class="animated fadeIn"><source src="http://res.cloudinary.com/daniela/video/upload/ac_none,br_10000,e_fade:1000/v1519779345/videoBackground.ogv" type="video/webm"></video>
+		</div>
+		<div>
+			<h1><a href="index2.html"><img class="nav-logo" src="img/FFLogo.jpg" alt="Logo FF"/></a></h1>
+			<ul class="nav nav-tabs">
+				<li role="presentation" class="active"><a href="index2.html" target="_blank">Home</a></li>
+				<li role="presentation"><a href="views/discografia.html" target="_blank">Discografía</a></li>
+					<ul>
+						<li>Concrete and Gold 2017</li>
+						<li>Echoes, Silence, Patience & Grace</li>
+					</ul>
+				<li role="presentation"><a href="views/integrantes.html" target="_blank">Integrantes</a></li>
+				<li role="presentation"><a href="views/merchandising.html" target="_blank">Merchandising</a></li>
+				<li role="presentation"><a href="views/videos.html" target="_blank">Videos</a></li>
+				<li role="presentation"><a href="views/tours.html" target="_blank">Tours</a></li>
 			</ul>
 		</div>
 	</nav>
 	<section>		
-		<h3 class="ffbackgroung"><img class="ffbackgroung" src="FFbackgroung2.jpg" alt="Foo Fighters"></h3>
+		<h3 class="ffbackgroung"><img class="ffbackgroung" src="img/FFbackgroung2.jpg" alt="Foo Fighters"></h3>
 		<div>
-			<h2><a href="Discos.html" target="_blank"><img class="logocentral" src="ff-central.png" alt="Foo Fighters logo"></a></h2>
+			<h2><a href="views/discografia.html" target="_blank"><img class="logocentral" src="img/ff-central.png" alt="Foo Fighters logo"></a></h2>
 		</div>
 	</section>
 	<footer>
